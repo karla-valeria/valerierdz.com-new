@@ -1,0 +1,39 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f6f3ee;
+  color: #111;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* global vars */
+:root {
+  /* Colors */
+  --color-bg-primary: #F4F2EF;
+  --color-bg-subtle: #BEB7AD;
+  --color-text-primary: #232527;
+  --color-text-secondary: #FAFAFB;
+  --color-accent-primary: #6E6C68;
+  --color-accent-secondary: #C98F84;
+  --color-accent-tertiary: #D9D9D9;
+
+  /* Typography */
+  --font-secondary: "neue-haas-grotesk-text", sans-serif;
+  --font-primary: "area-normal", sans-serif; /*"Inter", system-ui, -apple-system, sans-serif;*/
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+}
