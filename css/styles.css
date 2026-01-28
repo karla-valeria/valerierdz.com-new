@@ -169,6 +169,12 @@ footer .socials-grid {
   display: flex;
   gap: 30px;
   justify-content: center;
+  align-items: center;
+}
+
+footer .socials-grid img {
+  width: 32px;
+  color: var(--color-bg-primary);
 }
 
 .btn-outline, .btn-solid {
@@ -344,6 +350,11 @@ footer .socials-grid {
   flex-direction: column;
   gap: 40px;
   justify-content: center;
+}
+
+.deliverable-card h1 {
+  color: var(--color-accent-primary);
+padding: 20px;
 }
 
 .main-cta-content {
